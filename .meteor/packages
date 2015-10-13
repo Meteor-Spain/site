@@ -18,3 +18,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 kadira:blaze-layout
 meteorhacks:flow-router
+semantic:ui
+flemay:less-autoprefixer
+iandouglas:accounts-ui-semantic-ui
