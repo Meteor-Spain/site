@@ -1,0 +1,15 @@
+{
+  "meetup": {
+    "clientId": "p86b7jtf7aa7l6uqp5a5a217sl",
+    "secret": "vs9tqrqj3jdqhjq3fu5veeslk1",
+    "community": {
+      "default": {
+          "name": "Meteor-Spain",
+          "admin_roles": [
+            "Organizer", "Assistant Organizer", "Co-Organizer",
+            "Event Organizer"
+          ]
+      }
+    }
+  }
+}
