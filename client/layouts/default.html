@@ -1,0 +1,21 @@
+<template name="LayoutDefault">
+  {{> LayoutDefaultHeader }}
+  {{> Template.dynamic template=content}}
+  {{> LayoutDefaultFooter}}
+</template>
+
+<template name="LayoutDefaultHeader">
+  <h1 id="header" class="ui center aligned blue header">
+    <img
+      src="/imgs/meteor-spain-banner.png" alt="meteor spain logo"
+      class="ui image" />
+  </h1>
+</template>
+
+<template name="LayoutDefaultFooter">
+  <div id="footer" class="ui inverted center aligned segment streched width">
+    <h3 class="ui inverted header">
+      Made with Meteor with love in Madrid
+    </h3>
+  </div>
+</template>
